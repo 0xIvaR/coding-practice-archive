@@ -1,0 +1,41 @@
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Java build output
+*.class
+out/
+bin/
+target/
+.gradle/
+build/
+
+# C/C++ build output
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.dll
+*.so
+*.dylib
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp

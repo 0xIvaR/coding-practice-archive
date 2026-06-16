@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Buttons</title>
+    <style>
+        .custom-button {
+            font-size: 25px;
+            background-color: aquamarine;
+            color: rgb(1, 41, 27);
+            border-radius: 25px;
+            padding: 10px 20px;
+            border: 2px solid rgb(1, 41, 27);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .custom-button:hover {
+            background-color: rgb(1, 41, 27);
+            color: aquamarine;
+            transform: scale(1.05);
+        }
+
+        .button-container {
+            margin: 20px;
+            text-align: center;
+        }
+
+        h3 {
+            color: rgb(1, 41, 27);
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <h3>Button</h3>
+        <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+            <button class="custom-button" onclick="dosomething()">Click Me</button>
+        </a>
+    </div>
+
+    <hr>
+
+    <div class="button-container">
+        <h3>Lyrics</h3>
+        <a href="lyrics.html">
+            <button class="custom-button">Click here</button>
+        </a>
+    </div>
+
+    <script>
+        function dosomething() {
+            alert("Hello World!");
+            console.log("Button clicked!");
+        }
+
+        
+        // Add event listeners to buttons
+        document.querySelectorAll('.custom-button').forEach(button => {
+            button.addEventListener('mouseenter', () => {
+                button.style.boxShadow = '0 0 10px rgba(1, 41, 27, 0.5)';
+            });
+            
+            button.addEventListener('mouseleave', () => {
+                button.style.boxShadow = 'none';
+            });
+        });
+    </script>
+</body>
+</html>

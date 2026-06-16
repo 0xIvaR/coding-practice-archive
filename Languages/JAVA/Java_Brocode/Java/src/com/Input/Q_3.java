@@ -15,7 +15,25 @@ public class Q_3 {
         //- *Hint:* Watch out for the input buffer trap when transitioning between numbers and sentences!
 
         Scanner receipt = new Scanner(System.in);
-        System.out.println(" ");
+
+        System.out.print("Enter your destination: ");
+        String station = receipt.nextLine();
+
+        System.out.print("Enter the number of tickets: ");
+        int ticket = receipt.nextInt();
+
+        System.out.print("Enter the price of the ticket: ");
+        double price = receipt.nextDouble();
+
+        double amount = ticket * price;
+
+        System.out.println("****************");
+        System.out.println("Invoice");
+        System.out.println("****************");
+
+        System.out.println("Destination: " + station);
+        System.out.println("No of tickets: " + ticket);
+        System.out.println("Total amount: " + amount);
 
 
     }

@@ -1,40 +1,66 @@
 package com.Math;
 
 public class TwoDShapes {
+    public static void main(String[] args) {
 
-    public static double squareArea(double side) {
-        return side * side;
-    }
+        int side = 4;
+        int length = 9;
+        int width = 6;
+        int base = 4;
+        int height = 6;
 
-    public static double squarePerimeter(double side) {
-        return 4 * side;
-    }
+        //=========
+        // SQUARE
+        //=========
 
-    public static double squareDiagonal(double side) {
-        return Math.sqrt(side * side + side * side);
-    }
+        //Area
+        int area = side * side;
 
-    public static double rectangleArea(double length, double width) {
-        return length * width;
-    }
+        //Perimeter
+        int perimeter = 4 * side;
 
-    public static double rectanglePerimeter(double length, double width) {
-        return 2 * (length + width);
-    }
+        // Diagonal
+        double diagonal = Math.sqrt(side * side + side * side);
 
-    public static double rectangleDiagonal(double length, double width) {
-        return Math.sqrt(length * length + width * width);
-    }
+        // ====================
+        // RECTANGLE
+        // ====================
 
-    public static double triangleArea(double base, double height) {
-        return (base * height) / 2;
-    }
+        // Area
+        int areaRect = length * width;
 
-    public static double trianglePerimeter(double side1, double side2, double side3) {
-        return side1 + side2 + side3;
-    }
+        // Perimeter
+        int perimeterRect = 2 * (length + width);
 
-    public static double rightTriangleHypotenuse(double base, double height) {
-        return Math.sqrt(base * base + height * height);
+        // Diagonal
+        double diagonalRect = Math.sqrt(length * length + width * width);
+
+
+        // ====================
+        // TRIANGLE
+        // ====================
+
+        // Area
+        int areaTriangle = (base * height) / 2;
+
+        // Perimeter
+        int side1 =6;
+        int side2 = 2;
+        int side3 = 7;
+        int perimeterTriangle = side1 + side2 + side3;
+
+
+        // ====================
+        // RIGHT TRIANGLE
+        // ====================
+
+        // Hypotenuse
+        double baseRight = 3;
+        double heightRight = 4;
+
+        double hypotenuse =
+                Math.sqrt(baseRight * baseRight + heightRight * heightRight);
+
+        System.out.println(hypotenuse);
     }
 }

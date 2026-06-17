@@ -21,7 +21,7 @@ public class Hypotenuse {
 
         c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
 
-        System.out.println("The value of c: " + c);
+        System.out.println("The hypotenuse (side c) is: " + c);
 
     }
 }

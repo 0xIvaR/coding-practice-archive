@@ -17,7 +17,7 @@ public class Input {
         float gpa = scanner.nextFloat();
 
         System.out.print("Are you a Student? (true/false): ");
-        boolean isStudent = scanner.hasNext();
+        boolean isStudent = scanner.nextBoolean();
 
 
         System.out.println("Your name is: " + name);

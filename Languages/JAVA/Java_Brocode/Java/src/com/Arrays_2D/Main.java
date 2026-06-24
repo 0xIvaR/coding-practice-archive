@@ -14,8 +14,9 @@ public class Main {
 
         for (String[] foods: groceries){
             for (String food : foods) {
-                System.out.print(food + ", ");
+                System.out.print(food + " ");
             }
+            System.out.println();
         }
     }
 }

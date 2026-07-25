@@ -6,11 +6,11 @@ public class Main {
         // break = break out a loop (STOP)
         // continue = skip current iteration of a loop (SKIP)
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i <= 10; i++) {
 
             if (i == 5){
-                break;
-                // continue
+                //break;
+                continue;
             }
 
             System.out.print(i + " ");

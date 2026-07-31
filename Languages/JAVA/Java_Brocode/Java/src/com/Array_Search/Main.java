@@ -17,7 +17,7 @@ public class Main {
         targetNum = scanner.nextInt();
         scanner.nextLine();
 
-        System.out.println("Enter the target fruit: ");
+        System.out.print("Enter the target fruit: ");
         targetFruit = scanner.nextLine();
 
         // 1. NUMBER SEARCH

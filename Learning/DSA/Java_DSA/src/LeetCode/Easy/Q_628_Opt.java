@@ -1,6 +1,6 @@
 package LeetCode.Easy;
 
-public class Q_628_P {
+public class Q_628_Opt {
 
     // Your single-pass O(n) approach
     public int maximumProduct(int[] nums) {
@@ -41,7 +41,7 @@ public class Q_628_P {
 
     // Main method to run and test locally
     public static void main(String[] args) {
-        Q_628_P solver = new Q_628_P();
+        Q_628_Opt solver = new Q_628_Opt();
 
         // Test Case 1: Simple positive numbers
         int[] test1 = {1, 2, 3, 4};

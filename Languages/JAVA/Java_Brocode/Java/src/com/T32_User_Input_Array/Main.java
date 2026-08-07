@@ -1,4 +1,4 @@
-package com.T32_Enter_User_Input_into_an_Array;
+package com.T32_User_Input_Array;
 
 import java.util.Scanner;
 

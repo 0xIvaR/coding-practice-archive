@@ -2,7 +2,7 @@ package LeetCode.Easy;
 
 import java.util.Arrays;
 
-public class Q_628_M {
+public class Q_628_My {
 
     // Your exact approach wrapped inside the class
     public int maximumProduct(int[] nums) {
@@ -22,7 +22,7 @@ public class Q_628_M {
     // Main method to run and test your code locally
     public static void main(String[] args) {
         // Create an instance of your class
-        Q_628_M solver = new Q_628_M();
+        Q_628_My solver = new Q_628_My();
 
         // Test Case 1: Simple positive numbers
         int[] test1 = {1, 2, 3, 4};

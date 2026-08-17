@@ -1,7 +1,6 @@
 package C1_Array.T1_TwoPointers.Same_Direction;
 
 public class RemoveDuplicates {
-
     public static int removeDuplicates(int[] arr) {
 
         // Edge case
